@@ -1,0 +1,5 @@
+gsap.from('.logo', { rotation: 360, delay: 1, duration: 1, opacity: 0 })
+gsap.from('.heading', { y: -200, opacity: 0, duration: 1 })
+gsap.from('.link', {y: -200, opacity: 0, duration: 1})
+gsap.to('.btn', { scale: 1.1, duration: 2, repeat: -1, ease: 'bounce' })
+gsap.from('.par', {y: 300, opacity: 0, duration: 1, delay: 1.5})

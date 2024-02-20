@@ -1,0 +1,159 @@
+body {
+    background-image: url(Assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: grey;
+    font-family: 'Prosto One', cursive;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    color: black;
+    margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    margin-top: 79px;
+    margin-left: auto;
+    margin-right: 40px;
+    font-family: 'Prosto One', cursive;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    width: 185px;
+    height: 185px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.btn {
+    margin-left: 150px;
+    font-size: 30px;
+    color: black;
+    background-color: rgba(216, 216, 216, 0.7);
+    width: 350px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Prosto One', cursive;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.par-container {
+    width: 700px;
+    margin-left: 20px;
+}
+
+.par {
+    font-size: 40px;
+    margin: 0;
+}
+
+.contacts {
+    margin-top: 125px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgba(216, 216, 216, 0.7);
+    
+}
+
+.contactLink {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-item {
+    margin-right: 40px;
+}
+
+@media all and (max-width: 500px) {
+    .navbar {
+        display: block;
+        margin-bottom: -15px;
+    }
+
+    .logo {
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .link {
+        margin: 0;
+        font-size: 20px;
+        display: block;
+    }
+
+    .btn-container {
+        margin: 0;
+        justify-content: center;
+        margin-bottom: -20px;
+    }
+
+    .btn {
+        font-size: 25px;
+        width: 250px;
+        margin-top: -20px;
+        margin-left: 0;
+    }
+
+    .par-container {
+        width: 95%;
+        margin-top: -20px;
+    }
+
+    .par {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .contacts {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .info {
+        display: block;
+        height: 200px;
+        background-color: rgba(216, 216, 216, 0.7);
+
+    }
+
+    .contactLink {
+        margin-left: 10px;
+    }
+
+    .footer-item {
+        margin-right: 10;
+    }
+}
