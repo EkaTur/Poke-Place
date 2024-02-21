@@ -4,18 +4,12 @@ Welcome to PokePlace! This is a simple web application for ordering delicious Po
 
 ## Table of Contents
 - [About the Project](#about-the-project)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contacts](#contacts)
 - [Contributing](#contributing)
 
 ## About the Project
 PokePlace is your go-to destination for the best Poke Bowls you've ever tasted. With a simple and intuitive interface, you can easily order your favorite Poke Bowl and enjoy a delightful meal.
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/PokePlace.git
 
 ## Usage
 1. Open index.html in your web browser.
